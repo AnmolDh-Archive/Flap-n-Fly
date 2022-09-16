@@ -35,6 +35,16 @@ html{
     padding: 5%;
 }
 
+@media (max-width: 800px){
+    .pageContent{
+        flex-direction: column;
+    }
+}
+
+.pageContent > div{
+    text-align: center;
+}
+
 .btns{
     flex: 1;
 }
@@ -146,6 +156,16 @@ html{
 .anonplay{
     display: table-cell;
     vertical-align: middle;
+}
+
+@media (max-width: 800px){
+    .modalHolder{
+        flex-direction: column;
+    }
+
+    .anonplayDiv{
+        font-size: 120%;
+    }
 }
 
 .container .section:nth-child(2){
