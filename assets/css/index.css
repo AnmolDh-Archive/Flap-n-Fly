@@ -147,3 +147,53 @@ html{
     display: table-cell;
     vertical-align: middle;
 }
+
+.container .section:nth-child(2){
+    background: url("../images/about_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.yetanother{
+    color: whitesmoke;
+    font-family: 'Comic Sans MS';
+    font-size: 150%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.howtoplay{
+    background-color: rgba(128, 128, 128, 0.500);
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+    border-radius: 15px;
+    margin: 3%;
+}
+
+.howtoplay a{
+    color: whitesmoke;
+}
+
+@media (max-width: 800px){
+    .howtoplay{
+        flex-direction: column-reverse;
+        font-family: monospace;
+    }
+}
+
+.exphtp{
+    padding: 3%;
+    flex: 2;
+}
+
+.exphtp li{
+    margin: 2%;
+}
+
+.wasd{
+    flex: 1;
+    text-align: center;
+    padding: 3%;
+    margin: auto;
+}
