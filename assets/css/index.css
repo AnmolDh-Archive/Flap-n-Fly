@@ -66,3 +66,84 @@ html{
     width: 100%;
     float: right;
 }
+
+.modalHolder{
+    display: flex;
+    flex-direction: row;
+    padding: 3% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logtocont{
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(173, 216, 230, 0.850);
+    text-align: center;
+}
+
+.logtocont h1{
+    margin-bottom: 15px;
+}
+
+.modal label, .modal input, .modal button{
+    display: block;
+    font-weight: bold;
+    margin: auto;
+}
+
+.modal input{
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 2px solid;
+    border-top: none;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.modal button{
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-weight: 700;
+    width: 120px;
+}
+
+.modal button:hover{
+    background-color: #002080;
+    color: white;
+    cursor: pointer;
+}
+
+.orDiv{
+    flex: 1;
+    display: table;
+    font-size: 130%;
+}
+
+.or{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.anonplayDiv{
+    flex: 2;
+    display: table;
+    font-size: 160%;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #002080d5;
+    color: whitesmoke;
+}
+
+.anonplayDiv:hover{
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+.anonplay{
+    display: table-cell;
+    vertical-align: middle;
+}
