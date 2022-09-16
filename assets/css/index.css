@@ -6,3 +6,63 @@
 html{
     scroll-behavior: smooth;
 }
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.container .section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container .section:nth-child(1){
+    background: url("../images/home_bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pageContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.btns{
+    flex: 1;
+}
+
+#homegif{
+    width: 100%;
+    pointer-events: none;
+}
+
+.btns button{
+    background-color: rgba(128, 128, 128, 0.200);
+    color: white;
+    font-size: 180%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    width: 60%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.btns button:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+.closeDiv{
+    width: 100%;
+    float: right;
+}
