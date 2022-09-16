@@ -11,77 +11,83 @@
     </head>
 
     <body>
-        <div class="navCont">
-            <div class="topNav">
-                <a href="index.html" id="textLogo">Flap 'n' Fly</a>
-                <div class="topnavBtns" id="copyfromdiv">
-                    <a href="index.html" class="active">Home</a>
-                    <a href="#htp">How to play?</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="about.html">About</a>
-                    <a href="donation.html">Donate us</a>
-                    <div class="dropdown">
-                        <button class="dropbtn">Account 
-                          <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div class="dropdown-content">
-                          <a href="login.html">Login</a>
-                          <a href="signup.html">New here?</a>
+        <div class="container">
+            <div class="section">
+                <div class="page01" id="home">
+                    <div class="navCont">
+                        <div class="topNav">
+                            <a href="index.html" id="textLogo">Flap 'n' Fly</a>
+                            <div class="topnavBtns" id="copyfromdiv">
+                                <a href="index.html" class="active">Home</a>
+                                <a href="#htp">How to play?</a>
+                                <a href="contact.html">Contact</a>
+                                <a href="about.html">About</a>
+                                <a href="donation.html">Donate us</a>
+                                <div class="dropdown">
+                                    <button class="dropbtn">Account 
+                                      <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                      <a href="login.html">Login</a>
+                                      <a href="signup.html">New here?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown resdrop">
+                                <button class="dropbtn">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <div class="dropdown-content" id="pasteherediv">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="dropdown resdrop">
-                    <button class="dropbtn">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <div class="dropdown-content" id="pasteherediv">
+                    <div class="pageContent">
+                        <div class="logo">
+                            <img id="homegif" src="assets/images/flappy.gif">
+                        </div>
+
+                        <div class="btns">
+                            <button id="openModal">Play</button>
+                            <button onclick="window.location.href='leaderboard.html';">Leaderboard</button>
+                            <button onclick="erralt()">Exit</button>
+                        </div>
+
+                        <div id="modal" class="modal">
+                            <div class="modal-content">
+                                <div class="closeDiv">
+                                    <span class="close">&times;</span>
+                                </div>
+                                <div class="modalHolder">
+                                    <div class="logtocont">
+                                        <h1>Login & Get identity!</h1>
+                                    
+                                        <div class="loginForm">
+                                            <label for="uname">Username</label>
+                                            <input type="text" id="uname" name="uname" placeholder="Enter your Username" required>
+                        
+                                            <label for="pass">Password</label>
+                                            <input type="password" id="pass" name="pass" placeholder="Enter your Password" required>
+                                            
+                                            <button onclick="window.location.href='play.html';">Continue</button>
+                                        </div>
+                                    </div>
+                                    <div class="orDiv">
+                                        <div class="or">
+                                            <h1>OR</h1>
+                                        </div>
+                                    </div>
+                                    <div class="anonplayDiv" onclick="location.href='play.html';">
+                                        <div class="anonplay">
+                                            <h1><i class="fa fa-user-secret"></i> Play Now<br><small style="font-size: 30%;">(ANONYMOUSLY)</small></h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="logo">
-            <img id="homegif" src="assets/images/flappy.gif">
-        </div>
-
-        <div class="btns">
-            <button id="openModal">Play</button>
-            <button onclick="window.location.href='leaderboard.html';">Leaderboard</button>
-            <button onclick="erralt()">Exit</button>
-        </div>
-
-        <div id="modal" class="modal">
-            <div class="modal-content">
-                <div class="closeDiv">
-                    <span class="close">&times;</span>
-                </div>
-                <div class="modalHolder">
-                    <div class="logtocont">
-                        <h1>Login & Get identity!</h1>
-                    
-                        <div class="loginForm">
-                            <label for="uname">Username</label>
-                            <input type="text" id="uname" name="uname" placeholder="Enter your Username" required>
-        
-                            <label for="pass">Password</label>
-                            <input type="password" id="pass" name="pass" placeholder="Enter your Password" required>
-                            
-                            <button onclick="window.location.href='play.html';">Continue</button>
-                        </div>
-                    </div>
-                    <div class="orDiv">
-                        <div class="or">
-                            <h1>OR</h1>
-                        </div>
-                    </div>
-                    <div class="anonplayDiv" onclick="location.href='play.html';">
-                        <div class="anonplay">
-                            <h1><i class="fa fa-user-secret"></i> Play Now<br><small style="font-size: 30%;">(ANONYMOUSLY)</small></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </body>
         
 </html>
