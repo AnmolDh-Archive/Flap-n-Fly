@@ -24,6 +24,21 @@ body{
     font-size: 250%;
 }
 
+.divHolder{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px){
+    .divHolder{
+        flex-direction: column;
+    }
+}
+
 .details{
     background-color: purple;
     color: white;
