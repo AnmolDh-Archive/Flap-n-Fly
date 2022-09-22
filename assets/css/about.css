@@ -1,0 +1,15 @@
+body{
+    background-color: #F2CCD4;
+    margin: 0;
+    padding: 0;
+}
+
+.navCont{
+    background: #C0284C;
+    position: sticky;
+    top: 0;
+}
+
+.dropdown-content{
+    background-color: #C0284C;
+}
