@@ -43,3 +43,30 @@ body{
     flex: 5;
     padding: 10px;
 }
+
+.abtorg{
+    font-family: Georgia;
+    padding: 10px;
+    margin: 10px;
+}
+
+.abtorggame{
+    background: #c0284b31;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#abtorgimg{
+    width: 200px;
+    height: 300px;
+}
+
+.abtorgdev, .abtorgrelease, .abtorgdiscont{
+    background: #c0284b31;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
