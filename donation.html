@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flap 'n' Fly | Donation</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Scaled Down Flappy Bird">
+        <meta name="author" content="Anmol, Agrim, Aman, Archit">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/images/favicon.ico">
+        <link rel="stylesheet" href="assets/css/navbar.css">
+        <link rel="stylesheet" href="assets/css/scrollbar.css">
+        <link rel="stylesheet" href="assets/css/donation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="navCont">
+            <div class="topNav">
+                <a href="index.html" id="textLogo">Flap 'n' Fly</a>
+                <div class="topnavBtns" id="copyfromdiv">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#htp">How to play?</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                    <a href="donation.html" class="active">Donate us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Account 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="login.html">Login</a>
+                          <a href="signup.html">New here?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown resdrop">
+                    <button class="dropbtn">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="dropdown-content" id="pasteherediv">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pageContent">
+            <div class="gratitude">
+                <h2><span>We ask you, humbly, to help.</span></h2>
+                <hr>
+                <p><span>We'll get straight to the point: Today we ask you to defend Our's independence.</span></p>
+                <p><span>We're a non-profit that depends on donations to stay online and thriving, but 98% of our players don't give; they simply look the other way. If everyone who play gave just a little, we could keep this thriving for years to come. The price of a cup of coffee is all we ask.</span></p>
+                <p><span>Flap 'n' Fly is a place to play, not a place for advertising. The heart and soul of Flap 'n' Fly is a community of people working to bring you unlimited access to reliable, neutral play.</span></p>
+                <p><span>We know that most people will ignore this message. But if we were useful to you, please consider making a donation of ₹100, ₹200, ₹300 or whatever you can to protect and sustain us.</span></p>
+                <p><span>Thanks,</span></p>
+                <p><b><span>Team 13</span></b></p>
+            </div>
+
+            <div class="donate">
+                <h3>Donation</h3>
+                <div class="payment">
+                    <div class="donateAmt">
+                        <h5>Select a Amount you wish to donate</h5>
+                        <button id="50" onclick="donationAlert(this.id)">&#8377; 50</button>
+                        <button id="100" onclick="donationAlert(this.id)">&#8377; 100</button>
+                        <button id="200" onclick="donationAlert(this.id)">&#8377; 200</button>
+                        <button id="500" onclick="donationAlert(this.id)">&#8377; 500</button>
+                        <h6>Or Enter Manually</h6>
+                        <input type="text" placeholder="Enter your Desired Amount">
+                    </div>
+
+                    <h4>Select a payment method.</h4>
+                    <button class="collapsible">Debit/ Credit Card</button>
+                    <div class="content">
+                        <div class="icon-container">
+                            <i class="fa fa-cc-visa" style="color:navy;"></i>
+                            <i class="fa fa-cc-amex" style="color:blue;"></i>
+                            <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                            <i class="fa fa-cc-discover" style="color:orange;"></i>
+                        </div>
+                        <form id="cardform">
+                            <label for="cname">Name on Card</label>
+                            <input type="text" name="cname" id="cname" placeholder="Leonardo DiCaprio">
+                            <label for="cnumber">Card Number</label>
+                            <input type="text" name="cnumber" id="cnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expdate">Valid Thru</label>
+                            <input type="text" name="expdate" id="expdate" placeholder="01/2025">
+                            <label for="cvv">CVV</label>
+                            <input type="text" name="cvv" id="cvv" placeholder="335">
+                        </form>
+                        <h6>Note: We don't save any of your card details on our server.</h6>
+                    </div>
+
+                    <button class="collapsible">Netbanking</button>
+                    <div class="content">
+                        <form class="nbanking">
+                            <label for="nbanking">Choose your bank:</label>
+                            <select id="nbanking" name="nbanking">
+                                <option selected disabled>---Select---</option>
+                                <option value="hdfc">HDFC Bank</option>
+                                <option value="axis">Axis Bank</option>
+                                <option value="icici">ICICI Bank</option>
+                                <option value="sbi">State Bank of India</option>
+                            </select>
+                        </form>
+                        <h6>Note: You will be redirected to your Bank's Netbanking Page.</h6>
+                    </div>
+
+                    <button class="collapsible">UPI</button>
+                    <div class="content">
+                        <form class="upiid">
+                            <label for="upiid">Enter your UPI ID.</label>
+                            <input type="text" id="upiid" placeholder="abcdefu@upi">
+                        </form>
+                        <h6>Note: We'll send a UPI request to your UPI ID.</h6>
+                    </div>
+                    <button class="continuepay" onclick="payAlert()">Continue to Pay</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="assets/js/main.js"></script>
+</html>

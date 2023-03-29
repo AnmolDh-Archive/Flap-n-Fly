@@ -1,0 +1,35 @@
+body{
+    background-color: #0ECB5F;
+    pointer-events:none
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px){
+    .logo{
+        flex-direction: column;
+    }
+}
+
+.logo > div{
+    text-align: center;
+}
+
+img{
+    width: 80%;
+}
+
+.wip{
+    font-size: 120%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
