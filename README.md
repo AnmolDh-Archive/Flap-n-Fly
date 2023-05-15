@@ -24,7 +24,8 @@ If you would like to contribute to this project, please feel free to fork the re
 
 ## Acknowledgments
 
-- This project was created with the help of [W3Schools](https://w3schools.com/).
+- Created with the help of [W3Schools](https://w3schools.com/).
+- Created as a part of my coursework in the first year of my degree.
 
 ## License
 
