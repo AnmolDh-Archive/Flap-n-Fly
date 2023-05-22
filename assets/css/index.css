@@ -65,6 +65,9 @@ html{
     width: 60%;
     margin: 10px;
     padding: 5px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .btns button:hover{
