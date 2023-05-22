@@ -102,3 +102,10 @@
         display: none;
     }
 }
+
+/*Added Styles for Text Logo*/
+
+.textLogo{
+    width: 8rem;
+    margin-top: 10px;
+}
