@@ -4,11 +4,11 @@
 
 Flap-n-Fly is a simple game inspired by the popular mobile game Flappy Bird. The game is written in HTML, CSS and JavaScript and can be played in any modern web browser.
 
-<a href="https://flapnfly.netlify.app/"><img src="assets/images/ss.gif"></a>
+<a href="https://flapnfly.vercel.app/"><img src="assets/images/ss.gif"></a>
 
 ## Installation
 
-You don't need to install anything to play this game. Just visit the [Flap-n-Fly Website](https://flapnfly.netlify.app/) to start playing.
+You don't need to install anything to play this game. Just visit the [Flap-n-Fly Website](https://flapnfly.vercel.app/) to start playing.
 
 ## Gameplay
 
